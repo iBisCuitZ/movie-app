@@ -1,0 +1,27 @@
+#searchBoxContainer{
+    display: flex;
+    height:10vh;
+    width: 80%;
+    padding-right: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchBox{
+    display: flex;
+    font-size: xx-large;
+    padding-right:30%;
+    height:50%;
+    width:100%;
+}
+
+@media(max-width: 768px) {
+    #searchBoxContainer{
+        display: flex;
+        height:10vh;
+        width:100%;
+        padding-right: 5%;
+        justify-content: center;
+        align-items: center;
+    }
+}

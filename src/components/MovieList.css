@@ -1,0 +1,25 @@
+body{
+    transition: all 0.3s ease-in-out;
+}
+img{
+    width: 275px;
+    height: 400px;
+    padding:5px;
+}
+@media(max-width: 768px) {
+    img {
+        width: 520px;
+        height: 700px;
+        padding:25px;
+    }
+}
+.image-container{
+    width: fit-content;
+    margin-bottom: 3%;
+    transition: 0.3s
+}
+
+
+.image-container:hover{
+    transform: scale(1.2);
+}

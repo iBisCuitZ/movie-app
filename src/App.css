@@ -1,0 +1,24 @@
+body {
+  background: rgb(34, 34, 34);
+  transition: all 0.3s ease-in-out;
+}
+
+
+.movie-app > .row{
+  overflow: auto;
+  /* flex-wrap: nowrap; */
+}
+
+.movieList{
+  /* display: inline-block; */
+  padding-left:5%;
+  padding-top:2%;
+}
+@media(max-width:768px){
+  #searchBoxDiv{
+    width: 60vw
+  }
+  #headerDiv{
+    width: 30vw
+  }
+}
