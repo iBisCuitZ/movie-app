@@ -8,4 +8,5 @@ with TMDB API
 2.npm install 
 
 3.npm start 
+
 4. navigate to https://localhost:3000
