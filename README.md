@@ -1,7 +1,7 @@
 # movie-app
 with TMDB API
 
-# How to
+# How to Run
 
 1. cd to movie-app 
 
